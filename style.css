@@ -36,8 +36,6 @@ body {
 
 .header a {
     text-decoration: none;
-    font-size: 18px;
-    color: #E5E7EB;
 }
 
 .hero {
@@ -64,4 +62,9 @@ button {
     border-radius: 8px;
     padding: 6px 30px;
     margin: 16px 0;
+}
+
+img {
+    max-width: auto;
+    height: auto;
 }
