@@ -6,12 +6,20 @@ body {
     flex-direction: column;
 }
 
-.header {
+.header,
+.hero-container {
     background-color: #1F2937;
-    padding: 0 200px;
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+.header {
+    padding: 0 200px;
+}
+
+.hero-container {
+    padding: 150px 200px;
 }
 
 .logo {
@@ -30,4 +38,30 @@ body {
     text-decoration: none;
     font-size: 18px;
     color: #E5E7EB;
+}
+
+.hero {
+    max-width: 450px;
+}
+
+.hero .title {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.text {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+button {
+    background-color: #3882F6;
+    font-size: 18px;
+    font-weight: 600;
+    color: #F9FAF8;
+    border: none;
+    border-radius: 8px;
+    padding: 6px 30px;
+    margin: 16px 0;
 }
