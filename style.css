@@ -68,3 +68,31 @@ img {
     max-width: auto;
     height: auto;
 }
+
+.info {
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info .title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.info .container {
+    padding: 100px;
+    display: flex;
+    gap: 60px;
+}
+
+.card {
+    max-width: 240px;
+    text-align: center;
+}
+
+.card .text {
+    color: rgb(96, 96, 96);
+}
