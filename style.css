@@ -7,7 +7,7 @@ body {
 }
 
 .header,
-.hero-container {
+.hero {
     background-color: #1F2937;
     display: flex;
     justify-content: space-between;
@@ -18,7 +18,7 @@ body {
     padding: 0 200px;
 }
 
-.hero-container {
+.hero {
     padding: 150px 200px;
 }
 
@@ -38,11 +38,11 @@ body {
     text-decoration: none;
 }
 
-.hero {
+.hero .container {
     max-width: 450px;
 }
 
-.hero .title {
+.hero .container .title {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
