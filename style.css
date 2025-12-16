@@ -22,7 +22,8 @@ body {
     padding: 150px 200px;
 }
 
-.logo {
+.logo,
+.ad .title {
     font-size: 24px;
     font-weight: bold;
     color: #F9FAF8;
@@ -120,4 +121,22 @@ img {
     font-weight: bold;
     color: #1F2937;
     align-self: flex-end;
+}
+
+.ad {
+    padding: 150px 200px;
+}
+
+.ad .box {
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    background-color: #3882F6;
+    border-radius: 8px;
+    padding: 75px 150px;
+}
+
+.ad button {
+    border: 2px solid #F9FAF8;
 }
